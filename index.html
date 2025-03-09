@@ -1,0 +1,1501 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4231903150571503"
+     crossorigin="anonymous"></script>
+    <meta name="google-adsense-account" content="ca-pub-4231903150571503">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y9QT68Y0BD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Y9QT68Y0BD');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Informasi Seputar Coffe Untaian Hati Batam Menu Makanan dan Minumam Terbaik Se kota Batam">
+    <meta name="keywords" content="Coffe Untaian Hati, Recipe Menu, Cefe Di Batam, Tempat Nongkrong di Batam">
+    <meta name="author" content="Coffe Untaian Hati">
+    <title>
+
+
+     [Recipes Menu]</title>
+    <link rel="icon" href="https://logo.clearbit.com/anchorcafeandroastery.com" type="image/x-icon">
+    <style>
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #008a8a;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .logo a {
+    font-size: 2rem;
+    color: #008a8a;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 30px; /* Increased margin to add space between logo and menu */
+    animation: logoColorChange 4s infinite; /* Animation to change logo color */
+}
+
+@keyframes logoColorChange {
+    0% {
+        color: #008a8a;
+    }
+    25% {
+        color: #d9e7e7;
+    }
+    50% {
+        color: #008a8a;
+    }
+    75% {
+        color: #d9e7e7;
+    }
+    100% {
+        color: #008a8a;
+    }
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Center menu items */
+    margin-top: 0;
+    padding: 0;
+}
+
+header ul li {
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+header ul li:first-child {
+    margin-left: 0; /* Remove left margin from the first item */
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+header ul li a:hover {
+    color: #008a8a;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background: url('https://interiordesign.id/wp-content/uploads/2021/01/6_result-12-scaled.jpg') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #008a8a;
+    position: relative;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85); /* Semi-transparent dark overlay */
+}
+
+.hero-content {
+    z-index: 1;
+    padding: 20px;
+    color: #d9e7e7;
+    max-width: 80%;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.hero p {
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+    opacity: 0.8;
+}
+
+.cta-btn {
+    background-color: #008a8a;
+    color: #d9e7e7;
+    padding: 20px 35px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #D4600D;
+    transform: scale(1.05);
+}
+
+/* Modal Styling */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    overflow: auto; /* Menambahkan scroll pada modal jika konten lebih panjang */
+}
+
+/* Konten Modal */
+.modal-content {
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    width: 70%;
+    max-width: 600px;
+    max-height: 80vh; /* Menentukan batas tinggi modal */
+    overflow-y: auto; /* Scroll vertikal jika konten melebihi batas */
+    border-radius: 10px;
+}
+
+/* Tombol Close */
+.close {
+    color: #FF6200;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.close:hover,
+.close:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #000000;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+footer ul li a:hover {
+    color: #FF6200;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+
+    .cta-btn {
+        padding: 10px 30px;
+        font-size: 1.1rem;
+    }
+
+    header .logo a {
+        font-size: 1.7rem;
+    }
+
+    header ul {
+        flex-direction: column;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    header ul li {
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .cta-btn {
+        padding: 10px 25px;
+        font-size: 1rem;
+    }
+
+    header .logo a {
+        font-size: 1.5rem;
+    }
+
+    header ul {
+        flex-direction: column;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    header ul li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 0.9rem;
+    }
+
+    .cta-btn {
+        padding: 8px 20px;
+        font-size: 0.9rem;
+    }
+
+    header .logo a {
+        font-size: 1.3rem;
+    }
+
+    header ul {
+        flex-direction: column;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    header ul li {
+        margin-left: 0;
+        margin-bottom: 8px;
+    }
+}
+
+
+/* Job Listings Section (Grid 3 Kolom Horizontal) */
+.job-listings {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Membuat 3 kolom dalam satu baris */
+    gap: 20px; /* Memberikan jarak antar elemen */
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.job-item {
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+/* Pastikan gambar dalam setiap job item memiliki lebar yang tepat */
+.job-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.job-item h3 {
+    margin: 15px 0;
+    font-size: 1.5rem;
+}
+
+.job-item p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.job-item .apply-btn {
+    background-color: #FF740F;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border: none;
+}
+
+.job-item .apply-btn:hover {
+    background-color: #D4600D;
+    transform: scale(1.05);
+}
+
+/* Modal for Apply Now */
+#applyModal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    overflow: auto;
+}
+
+.modal-content {
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    width: 70%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.modal-content h2 {
+    font-size: 1.75rem;
+    margin-bottom: 15px;
+}
+
+.modal-content #modalTitle {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.modal-content #modalDescription {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+/* Close Button */
+.close {
+    color: #FF6200;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.close:hover,
+.close:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .job-listings {
+        grid-template-columns: repeat(2, 1fr); /* 2 kolom pada layar lebih kecil */
+    }
+}
+
+@media (max-width: 768px) {
+    .job-listings {
+        grid-template-columns: 1fr; /* 1 kolom pada layar lebih kecil */
+    }
+}
+
+/* FAQ CSS */
+  .faq-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .faq-item {
+    background-color: #f9f9f9;
+    border-left: 5px solid #FF6200;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .faq-item h3 {
+    font-size: 1.2rem;
+    color: #333;
+    padding: 20px;
+  }
+
+  .faq-item p {
+    font-size: 1rem;
+    color: #333;
+  }
+
+  .faq-item a {
+    color: #FF6200;
+    text-decoration: none;
+  }
+
+  .faq-item a:hover {
+    text-decoration: underline;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav>
+        <div class="logo">
+            <a href="https://interiordesign.id/wp-content/uploads/2021/01/6_result-12-scaled.jpg" target="_blank" style="font-size: 1.8rem; color: white; text-decoration: none; font-weight: bold;">Coffe Untaian Hati</a>
+        </div>
+            <ul>
+                <li><a href="#" id="aboutBtn">About Us</a></li>
+                <li><a href="#" id="servicesBtn">Our Menu</a></li>
+                <li><a href="#" id="contactBtn">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Coffe Untaian Hati</h1>
+            <p>Setiap Tetesan Menjalin Cerita, Menyatu dalam Kehangatan, dan Menghadirkan Kebersamaan di Setiap Rasa.</p>
+            <a href="#" id="applyBtn" class="cta-btn"><strong>SPECIAL MENU</strong></a>
+        </div>
+    </section>
+
+<!-- Job Listings Section (Grid 3 Kolom) -->
+<section class="job-listings">
+    <div class="job-item">
+        <img src="https://cdn.rri.co.id/berita/Yogyakarta/o/1730602616113-1000083690/odc4glysmrfeirz.jpeg" alt="Americano">
+        <h3>Americano</h3>
+        <p><strong>Americano</strong> adalah pilihan kopi yang sederhana namun kuat, cocok bagi mereka yang menginginkan pengalaman kopi yang murni dan menenangkan.</p>
+        <br />
+        <a href="#" id="applyBtn1" class="cta-btn">DETAILS</a>
+    </div>
+    <div class="job-item">
+        <img src="https://media.istockphoto.com/id/980280776/photo/iced-coffee.jpg?s=612x612&w=0&k=20&c=pd7V7C7dEUGTK_Qw1faI5tMlxdlxs40k4oKJGU2DWZw=" alt="Ice Blend Coffee">
+        <h3>Ice Blend Coffee</h3>
+        <p>adalah pilihan kopi yang segar dan nikmat, sangat cocok dinikmati saat cuaca panas atau sebagai minuman penutup yang menyenangkan.</p>
+        <a href="#" id="applyBtn2" class="cta-btn">DETAILS</a>
+    </div>
+    <div class="job-item">
+        <img src="https://www.nescafe.com/id/sites/default/files/2023-08/Sama-sama-Berbahan-Dasar-Susu%2C-Apa-Perbedaan-Cappuccino-dan-Latte_hero.jpg" alt="Cappucino">
+        <h3>Cappucino</h3>
+        <p>Nikmati Klasiknya, Rasakan Hangatnya!</p>
+        <a href="#" id="applyBtn3" class="cta-btn">DETAILS</a>
+    </div>
+    <div class="job-item">
+        <img src="https://w0.peakpx.com/wallpaper/794/676/HD-wallpaper-french-fries-fastfood-potato-close-up.jpg" alt="French Fries">
+        <h3>French Fries</h3>
+        <p>adalah camilan klasik yang lezat dan cocok disajikan bersama saus favorit seperti saus tomat atau mayones.
+</p>
+        <a href="#" id="applyBtn4" class="cta-btn">DETAILS</a>
+    </div>
+    <div class="job-item">
+        <img src="https://liburasik.com/wp-content/uploads/2024/08/Resep-Mie-Goreng-Lezat-dan-Praktis-untuk-Santapan-Keluarga.jpg" alt="Mie Goreng">
+        <h3>Mie Goreng</h3>
+        <p>adalah hidangan yang serbaguna dan lezat, sangat cocok untuk makan siang atau malam yang cepat dan nikmat.
+</p>
+        <a href="#" id="applyBtn5" class="cta-btn">DETAILS</a>
+    </div>
+    <div class="job-item">
+        <img src="https://img-global.cpcdn.com/recipes/104878a22325a12c/680x482cq70/nasi-goreng-smoke-beef-foto-resep-utama.jpg" alt="Nasi Goreng Beef">
+        <h3>Nasi Goreng Beef</h3>
+        <p>Minuman berlapis yang memadukan rasa espresso yang kuat dengan manisnya karamel.</p>
+        <a href="#" id="applyBtn6" class="cta-btn">DETAILS</a>
+    </div>
+    <!-- Add more job items as needed -->
+</section>
+
+
+<section>
+  <h2>Orang lain juga bertanya</h2>
+
+  <div itemscope itemtype="https://schema.org/FAQPage">
+    <div class="faq-container">
+      
+      <!-- FAQ Item 1 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apa itu Coffee Untarian Hati?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Coffee Untarian Hati adalah kafe yang menyajikan berbagai jenis kopi berkualitas tinggi dengan konsep yang nyaman untuk bersantai.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 2 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apa jenis kopi yang disediakan di Coffee Untarian Hati?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Coffee Untarian Hati menyajikan berbagai jenis kopi, mulai dari espresso, cappuccino, latte, hingga kopi spesialti dengan berbagai rasa unik.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 3 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah Coffee Untarian Hati menyediakan kopi Arabika?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menyediakan kopi Arabika dengan kualitas terbaik dari berbagai daerah penghasil kopi.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 4 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah ada menu kopi untuk vegetarian di Coffee Untarian Hati?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Tentu, kami menyediakan menu kopi yang ramah vegan, seperti kopi hitam tanpa susu atau dengan susu nabati.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 5 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah Coffee Untarian Hati menyediakan layanan untuk pemesanan online?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menyediakan layanan pemesanan online melalui aplikasi dan website untuk kenyamanan pelanggan.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 6 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Bagaimana cara memesan kopi di Coffee Untarian Hati?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Anda dapat memesan langsung di tempat atau melalui aplikasi pemesanan online kami.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 7 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apa menu andalan di Coffee Untarian Hati?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Menu andalan kami adalah Caffe Latte dan Cappuccino yang dibuat dari biji kopi pilihan.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 8 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah Coffee Untarian Hati menyediakan makanan ringan?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menyediakan berbagai pilihan makanan ringan, seperti kue, croissant, dan sandwich.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 9 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah ada pilihan minuman selain kopi di Coffee Untarian Hati?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Tentu, kami juga menyediakan teh, cokelat panas, dan minuman dingin seperti smoothies.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 10 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah Coffee Untarian Hati menerima pembayaran dengan kartu kredit?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menerima pembayaran dengan kartu kredit, debit, dan e-wallet.</p>
+  </div>
+</div>
+
+
+      <!-- FAQ Item 11 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah ada pilihan menu gluten-free di Coffee Untaian Hati?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Kami menyediakan beberapa menu gluten-free, termasuk beberapa jenis kue dan camilan.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 12 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apa saja minuman yang dapat saya pesan di Coffee Untaian Hati selain kopi?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Selain kopi, kami juga menawarkan berbagai pilihan teh, smoothies, dan minuman dingin serta panas lainnya.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 13 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apa yang membuat Coffee Untaian Hati berbeda dari kafe lain?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Kami mengutamakan kualitas biji kopi yang kami pilih, serta memberikan pengalaman yang nyaman dan ramah bagi setiap pengunjung.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 14 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah Coffee Untaian Hati menyediakan pilihan makanan penutup?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menawarkan berbagai pilihan makanan penutup seperti cheesecake, brownies, dan croissant.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 15 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah Coffee Untaian Hati menyediakan kopi untuk acara atau pesanan besar?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Tentu, kami menyediakan layanan pesanan besar untuk acara seperti pertemuan, seminar, atau acara khusus lainnya.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 16 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Bagaimana cara memesan di Coffee Untaian Hati?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Anda bisa memesan langsung di meja atau menggunakan aplikasi pemesanan online untuk kenyamanan.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 17 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah Coffee Untaian Hati menerima pembayaran dengan kartu kredit?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menerima pembayaran dengan kartu kredit dan debit, serta pembayaran melalui aplikasi dompet digital.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 18 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah ada program loyalitas atau diskon di Coffee Untaian Hati?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Kami memiliki program loyalitas yang memberikan potongan harga dan hadiah untuk pelanggan setia.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 19 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah Coffee Untaian Hati menyediakan minuman spesial untuk anak-anak?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menyediakan beberapa minuman seperti cokelat panas dan smoothies buah yang cocok untuk anak-anak.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 20 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apa jenis makanan ringan yang tersedia di Coffee Untaian Hati?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Kami menawarkan berbagai pilihan makanan ringan seperti croissant, cookies, dan keripik kentang.</p>
+  </div>
+</div>
+
+      <!-- FAQ Item 21 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah Coffee Untaian Hati ramah anak?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, Coffee Untaian Hati adalah tempat yang ramah untuk keluarga dan anak-anak dengan menu yang cocok untuk mereka.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 22 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Bagaimana kualitas kopi di Coffee Untaian Hati?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Kami hanya menggunakan biji kopi berkualitas tinggi yang dipilih dengan teliti dari petani lokal, memastikan setiap cangkir kopi memiliki rasa yang sempurna.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 23 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah Coffee Untaian Hati memiliki tempat parkir yang luas?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menyediakan tempat parkir yang cukup luas bagi pelanggan yang membawa kendaraan pribadi.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 24 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah Coffee Untaian Hati memiliki ruang untuk acara privat?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Kami memiliki ruang khusus yang bisa disewa untuk acara privat seperti pertemuan, ulang tahun, atau gathering.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 25 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah Coffee Untaian Hati melayani pemesanan untuk pesta atau event?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami melayani pemesanan untuk pesta atau event, termasuk menyediakan katering kopi dan makanan ringan.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 26 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Bagaimana dengan pilihan kopi iced?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Kami memiliki berbagai pilihan iced coffee seperti iced latte, iced mocha, dan iced americano.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 27 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah Coffee Untaian Hati menyediakan minuman manis seperti milkshake?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menawarkan milkshake dengan berbagai rasa, termasuk cokelat, vanila, dan stroberi.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 28 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah Coffee Untaian Hati memiliki menu spesial musiman?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami sering menawarkan menu spesial sesuai musim, seperti minuman berbahan dasar pumpkin atau cokelat panas selama musim hujan.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 29 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Bisakah saya membeli biji kopi dari Coffee Untaian Hati?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menyediakan biji kopi untuk dibawa pulang, sehingga Anda bisa menikmati kopi kami kapan saja.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 30 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah Coffee Untaian Hati menyediakan tempat untuk bekerja?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menyediakan tempat yang nyaman dan tenang untuk bekerja atau belajar, dilengkapi dengan Wi-Fi dan soket listrik.</p>
+  </div>
+</div>
+
+
+      <!-- FAQ Item 31 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah Coffee Untaian Hati menerima pemesanan melalui telepon?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menerima pemesanan melalui telepon untuk pengambilan langsung atau pengantaran.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 32 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah Coffee Untaian Hati menyediakan menu sarapan?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menyediakan berbagai pilihan sarapan seperti omelette, roti bakar, dan granola.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 33 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah Coffee Untaian Hati menyediakan kopi tanpa gula?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Tentu, kami bisa menyajikan kopi tanpa gula sesuai dengan preferensi Anda.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 34 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apa yang dimaksud dengan Kopi Untaian Hati?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Kopi Untaian Hati adalah kopi spesial kami yang terbuat dari kombinasi biji kopi pilihan, diracik dengan penuh cinta, memberikan rasa yang unik dan memanjakan lidah.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 35 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah Coffee Untaian Hati memiliki acara khusus atau live music?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami kadang mengadakan acara live music atau open mic untuk menciptakan suasana yang lebih hangat dan menyenangkan.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 36 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah Coffee Untaian Hati menawarkan minuman untuk diet rendah kalori?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Kami menyediakan pilihan minuman rendah kalori, seperti kopi hitam tanpa gula dan smoothies rendah kalori.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 37 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah Coffee Untaian Hati menyediakan kopi single origin?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menawarkan kopi single origin dengan berbagai varian rasa yang berbeda.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 38 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Bisakah saya membeli merchandise Coffee Untaian Hati?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menyediakan merchandise seperti mug, t-shirt, dan tote bag untuk Anda bawa pulang sebagai kenang-kenangan.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 39 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah Coffee Untaian Hati memiliki program CSR?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami terlibat dalam berbagai program CSR yang mendukung pengembangan komunitas dan petani kopi lokal.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 40 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apa pesan dari Coffee Untaian Hati bagi para pelanggannya?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Kami ingin memberikan pengalaman kopi yang hangat, penuh cinta, dan selalu mengutamakan kualitas demi kepuasan pelanggan kami.</p>
+  </div>
+</div>
+
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Footer -->
+    <footer>
+        <ul>
+            <li><a href="#" id="aboutFooterBtn">About Us</a></li>
+            <li><a href="#" id="privacyFooterBtn">Privacy Policy</a></li>
+            <li><a href="#" id="termsFooterBtn">Terms & Conditions</a></li>
+        </ul>
+        <p>&copy; 2025 Coffe Untaian Hati</p>
+</footer>
+
+<!-- Modal for About Us -->
+<div id="modal-about" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+<h2>About Us</h2>
+<p>
+
+<h2>**About Us - Coffee Untaian Hati**</h2>
+<br />
+<p><strong>Selamat Datang di Coffee Untaian Hati</strong></p>
+<br>
+<p>Kami di <strong>Coffee Untaian Hati</strong> menghadirkan pengalaman kopi yang unik dan penuh cinta. Dengan racikan kopi berkualitas tinggi, kami berkomitmen untuk memberikan rasa terbaik di setiap tegukan.</p>
+<br>
+<p>Setiap cangkir yang kami sajikan dibuat dengan penuh perhatian dan kehangatan, menciptakan suasana nyaman bagi setiap pelanggan. Dari kopi klasik hingga kreasi spesial, kami menghadirkan beragam pilihan untuk menemani momen istimewa Anda.</p>
+<br>
+<p><strong>Mengapa Memilih Coffee Untaian Hati?</strong></p>
+<br>
+<p><strong>- Biji Kopi Berkualitas:</strong> Kami hanya menggunakan biji kopi pilihan dari petani lokal dan internasional terbaik.</p>
+<p><strong>- Inovasi Rasa:</strong> Menyajikan kombinasi rasa autentik dengan sentuhan modern yang menggugah selera.</p>
+<p><strong>- Kenyamanan Pelanggan:</strong> Menyediakan tempat yang hangat dan ramah untuk bersantai dan berbagi cerita.</p>
+<br>
+<p>Kami percaya bahwa secangkir kopi dapat menyatukan hati dan menciptakan kenangan indah. <strong>Coffee Untaian Hati</strong> hadir untuk menjadi bagian dari setiap kisah Anda.</p>
+<br>
+<p><strong>Nikmati setiap tegukan cinta di Coffee Untaian Hati!</strong></p>
+
+</p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<!-- Modal for Our Services -->
+<div id="modal-services" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+<h2>Our Services</h2>
+<p>
+
+<h2>**Our Services - Coffee Untaian Hati**</h2>
+<br />
+<p>Di <strong>Coffee Untaian Hati</strong>, kami berkomitmen untuk menyajikan pengalaman ngopi yang istimewa dan berkesan. Dengan berbagai layanan unggulan, kami hadir untuk menemani momen spesial Anda, mulai dari secangkir kopi hangat hingga acara istimewa yang penuh kehangatan.</p>
+<br />
+
+<h3>☕ Signature Coffee & Beverages</h3>
+<p>Jelajahi cita rasa unik dengan pilihan kopi khas kami. Setiap cangkir diseduh dengan biji kopi pilihan dan sentuhan spesial yang membangkitkan kenangan manis di setiap tegukan.</p>
+<br />
+
+<h3>🍰 Delightful Food & Pastry</h3>
+<p>Nikmati hidangan lezat dan aneka pastry yang menggoda selera. Dari camilan ringan hingga makanan berat, semua disiapkan dengan penuh cinta dan bahan berkualitas tinggi.</p>
+<br />
+
+<h3>🎊 Private Events & Gatherings</h3>
+<p>Rayakan momen berharga Anda di Coffee Untaian Hati. Kami menyediakan layanan reservasi untuk acara spesial seperti perayaan ulang tahun, arisan, atau gathering pribadi dalam suasana hangat dan bersahabat.</p>
+<br />
+
+<h3>🚚 Delivery & Takeaway</h3>
+<p>Ingin menikmati menu favorit di rumah? Kami menyediakan layanan pengantaran dan takeaway untuk memudahkan Anda menikmati kelezatan Coffee Untaian Hati di mana pun Anda berada.</p>
+<br />
+
+<h3>📶 Cozy Space & Free Wi-Fi</h3>
+<p>Ruang nyaman dengan akses Wi-Fi gratis tersedia untuk Anda yang ingin bersantai, bekerja, atau berbagi cerita bersama orang tersayang.</p>
+<br />
+
+<p>Kami siap melayani Anda setiap hari dari <strong>18.00 hingga 02.00</strong>. Untuk informasi lebih lanjut atau reservasi, hubungi kami di 085668738151 atau ikuti kami di <strong><a href="https://instagram.com/coffeeuntaianhati" target="_blank">Instagram: @coffeeuntaianhati</a></strong>.</p>
+<br />
+
+<p><strong><em>Coffee Untaian Hati – Mengikat Rasa, Menjalin Cerita.</em></strong></p>
+
+</p>
+    </div>
+</div>
+
+
+<!-- Modal for Contact -->
+    <div id="modal-contact" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+<h2>Contact Us</h2>
+<p><strong>Coffee Untaian Hati</strong></p>
+<p>Jl. Komp. Cipta Puri, Tiban Baru, Kec. Sekupang, Kota Batam, Kepulauan Riau 29424</p>
+<br>
+<p><strong>Jam Operasional:</strong></p>
+<p>Minggu: 18.00–02.00</p>
+<p>Senin: 18.00–02.00</p>
+<p>Selasa: 18.00–02.00</p>
+<p>Rabu: 18.00–02.00</p>
+<p>Kamis: 18.00–02.00</p>
+<p>Jumat: 18.00–02.00</p>
+<p>Sabtu: 18.00–02.00</p>
+<br>
+<p><strong>Kontak:</strong> 085668738151</p>
+        </div>
+    </div>
+
+
+
+
+<!-- Modal for Footer About Us -->
+    <div id="modal-footer-about" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+<h2>About Us</h2>
+<p><strong>Selamat Datang di Coffee Untaian Hati</strong></p>
+
+<p><strong>Selamat datang di Coffee Untaian Hati</strong>, tempat di mana kehangatan dan kenikmatan kopi bertemu dengan kebersamaan. Kami berkomitmen untuk memberikan pengalaman kopi yang luar biasa dengan setiap tegukan yang memanjakan lidah dan hati.</p>
+
+<p>Kami percaya bahwa kopi bukan hanya sekadar minuman, tetapi juga adalah momen untuk menikmati waktu bersama orang terkasih, berbagi cerita, dan menciptakan kenangan yang tak terlupakan. Setiap cangkir kopi yang kami sajikan dibuat dengan penuh cinta dan perhatian, menggunakan biji kopi terbaik yang dipilih dengan cermat dari petani lokal yang berbakat.</p>
+
+<p>Dengan berbagai pilihan minuman, mulai dari kopi hitam klasik hingga inovasi kopi dengan berbagai rasa, kami ingin memastikan setiap pengunjung merasakan kedamaian dan kenikmatan dalam setiap kunjungan mereka ke Coffee Untaian Hati. Kami juga menyediakan berbagai pilihan makanan ringan yang sempurna untuk menemani secangkir kopi favorit Anda.</p>
+
+<p><strong>Misi kami</strong> adalah untuk menjadi tempat yang nyaman, hangat, dan ramah bagi setiap orang yang datang. Kami ingin setiap orang yang menikmati kopi kami merasakan ikatan yang kuat dengan sesama, membangun komunitas yang saling mendukung, dan menciptakan momen-momen penuh makna.</p>
+
+<p>Kunjungi Coffee Untaian Hati dan temukan kehangatan yang kami tawarkan dalam setiap cangkir kopi yang kami sajikan. Semoga Anda merasa seperti di rumah sendiri, menikmati kebersamaan dan kenikmatan dalam setiap tegukan.</p>
+    </div>
+</div>
+
+<!-- Modal for Privacy Policy -->
+<div id="modal-footer-privacy" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+<h2>Privacy Policy</h2>
+<p><strong>Kebijakan Privasi - Coffee Untarian Hati</strong></p>
+
+<p>Di Coffee Untarian Hati, kami menghargai privasi Anda dan berkomitmen untuk melindungi informasi pribadi Anda. Kebijakan Privasi ini menjelaskan jenis data yang kami kumpulkan dan bagaimana data tersebut digunakan, disimpan, dan dilindungi saat Anda mengunjungi situs web kami atau berinteraksi dengan layanan kami.</p>
+
+<p><strong>1. Informasi yang Kami Kumpulkan</strong></p>
+<p>Kami mengumpulkan informasi pribadi ketika Anda mengunjungi situs web kami, melakukan pemesanan, atau berlangganan buletin kami. Informasi yang kami kumpulkan meliputi:</p>
+<ul>
+  <li>Nama Anda</li>
+  <li>Alamat email</li>
+  <li>Nomor telepon</li>
+  <li>Informasi pengiriman dan penagihan</li>
+  <li>Informasi pembayaran (seperti rincian kartu kredit)</li>
+</ul>
+
+<p><strong>2. Bagaimana Kami Menggunakan Informasi Anda</strong></p>
+<p>Informasi pribadi yang kami kumpulkan digunakan untuk tujuan berikut:</p>
+<ul>
+  <li>Memproses pesanan dan pengiriman</li>
+  <li>Mengirim email promosi dan pembaruan</li>
+  <li>Menambah perbaikan layanan kami</li>
+  <li>Menanggapi pertanyaan dan umpan balik pelanggan</li>
+</ul>
+
+<p><strong>3. Keamanan Data</strong></p>
+<p>Kami mengambil langkah-langkah keamanan yang tepat untuk melindungi data pribadi Anda dari akses, perubahan, pengungkapan, atau penghancuran yang tidak sah. Kami menggunakan teknologi enkripsi dan protokol keamanan lainnya untuk memastikan informasi Anda aman.</p>
+
+<p><strong>4. Layanan Pihak Ketiga</strong></p>
+<p>Kami tidak menjual, memperdagangkan, atau menyewakan informasi pribadi Anda kepada pihak ketiga. Namun, kami dapat membagikan informasi dengan penyedia layanan pihak ketiga yang membantu dalam operasi bisnis kami, seperti pemroses pembayaran atau layanan pengiriman. Penyedia ini diharuskan untuk menggunakan informasi Anda hanya untuk tujuan memberikan layanan kepada kami.</p>
+
+<p><strong>5. Cookies</strong></p>
+<p>Situs web kami menggunakan cookies untuk meningkatkan pengalaman browsing Anda. Cookies adalah file data kecil yang disimpan di perangkat Anda yang membantu kami memahami bagaimana Anda berinteraksi dengan situs web kami. Anda dapat memilih untuk menonaktifkan cookies melalui pengaturan browser Anda, namun ini dapat mempengaruhi beberapa fungsionalitas situs web.</p>
+
+<p><strong>6. Hak Anda</strong></p>
+<p>Anda memiliki hak untuk mengakses, memperbarui, atau menghapus informasi pribadi Anda. Jika Anda ingin menggunakan hak-hak ini, silakan hubungi kami menggunakan informasi yang tercantum di bawah.</p>
+
+<p><strong>7. Perubahan pada Kebijakan Ini</strong></p>
+<p>Kami berhak untuk memperbarui Kebijakan Privasi ini kapan saja. Setiap perubahan akan diposting di halaman ini dengan tanggal yang diperbarui. Harap tinjau kebijakan ini secara berkala untuk tetap mendapatkan informasi tentang bagaimana kami melindungi informasi Anda.</p>
+
+<p><strong>Hubungi Kami</strong></p>
+<p>Jika Anda memiliki pertanyaan tentang Kebijakan Privasi ini, silakan hubungi kami di:</p>
+<p>Email: support@coffeeuntaianhati.com</p>
+<p>Telepon: 085668738151</p>
+    </div>
+</div>
+
+<!-- Modal for Terms and Conditions -->
+<div id="modal-footer-terms" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+<h2>Terms and Conditions</h2>
+<p><strong>Ketentuan dan Syarat Penggunaan</strong></p>
+
+<p>Selamat datang di Coffee Untaian Hati! Dengan mengakses dan menggunakan layanan kami, Anda setuju untuk mematuhi ketentuan dan syarat yang telah ditetapkan. Harap baca dengan seksama ketentuan berikut sebelum melanjutkan.</p>
+
+<p><strong>1. Penggunaan Layanan</strong><br>
+Pengguna setuju untuk menggunakan layanan Coffee Untaian Hati hanya untuk tujuan yang sah dan sesuai dengan ketentuan yang berlaku. Anda tidak diperkenankan untuk menggunakan layanan ini untuk kegiatan yang melanggar hukum atau merugikan pihak lain.</p>
+
+<p><strong>2. Hak Cipta</strong><br>
+Seluruh konten yang terdapat dalam website dan layanan Coffee Untaian Hati, termasuk namun tidak terbatas pada teks, gambar, logo, dan grafik, dilindungi oleh hak cipta dan merupakan milik Coffee Untaian Hati atau pihak yang memberikan izin kepada kami.</p>
+
+<p><strong>3. Pembayaran dan Harga</strong><br>
+Harga yang tercantum dalam menu Coffee Untaian Hati adalah harga yang berlaku pada saat transaksi dilakukan. Coffee Untaian Hati berhak untuk melakukan perubahan harga tanpa pemberitahuan sebelumnya. Pembayaran dilakukan melalui metode yang tersedia di platform kami.</p>
+
+<p><strong>4. Privasi dan Keamanan</strong><br>
+Coffee Untaian Hati berkomitmen untuk menjaga privasi dan keamanan data pribadi pengguna. Data yang dikumpulkan hanya akan digunakan untuk tujuan yang sah sesuai dengan kebijakan privasi kami.</p>
+
+<p><strong>5. Pengembalian dan Pembatalan</strong><br>
+Coffee Untaian Hati menerima pembatalan dan pengembalian produk dalam jangka waktu tertentu sesuai dengan kebijakan yang berlaku. Untuk informasi lebih lanjut, harap hubungi layanan pelanggan kami.</p>
+
+<p><strong>6. Perubahan Ketentuan</strong><br>
+Coffee Untaian Hati berhak untuk mengubah ketentuan dan syarat ini sewaktu-waktu. Setiap perubahan akan diumumkan melalui website resmi kami, dan perubahan tersebut berlaku segera setelah dipublikasikan.</p>
+
+<p><strong>7. Tanggung Jawab Pengguna</strong><br>
+Pengguna bertanggung jawab atas penggunaan layanan dan produk dari Coffee Untaian Hati. Kami tidak bertanggung jawab atas kerugian atau kerusakan yang timbul akibat penggunaan layanan yang tidak sesuai dengan ketentuan.</p>
+
+<p><strong>8. Kontak</strong><br>
+Jika Anda memiliki pertanyaan atau membutuhkan bantuan lebih lanjut mengenai ketentuan dan syarat ini, silakan hubungi kami melalui informasi yang tersedia di website resmi kami.</p>
+
+<p>Terima kasih telah memilih Coffee Untaian Hati! Nikmati pengalaman kopi terbaik kami.</p>
+    </div>
+</div>
+
+<!-- Modal Caramel Macchiato -->
+<div id="modal-apply" class="modal" itemscope itemtype="https://schema.org/Recipe">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 itemprop="name">Caramel Macchiato</h2>
+        <br>
+        <h3>Manfaat Caramel Macchiato</h3>
+        <ul>
+            <li><span itemprop="description">Meningkatkan Mood: Kombinasi kopi, susu, dan karamel dapat memberikan perasaan nyaman dan menyenangkan.</span></li>
+            <li><span itemprop="description">Sumber Energi: Kafein dalam kopi membantu memberikan energi dan meningkatkan kewaspadaan.</span></li>
+            <li><span itemprop="description">Aroma Manis: Aroma karamel yang kaya menambah kenikmatan minuman ini.</span></li>
+        </ul>
+        <br>
+        <h3>Bahan-bahan yang Umum Digunakan</h3>
+        <ul itemprop="ingredients">
+            <li>1 shot espresso dari biji kopi pilihan</li>
+            <li>120 ml susu panas</li>
+            <li>2 sendok makan sirup karamel</li>
+        </ul>
+        <br />
+        <h3>Cara Membuat Caramel Macchiato</h3>
+        <ol itemprop="recipeInstructions">
+            <li>Siapkan cangkir besar untuk penyajian.</li>
+            <li>Tuangkan sirup karamel ke dalam cangkir.</li>
+            <li>Tambahkan susu panas ke dalam cangkir, aduk rata.</li>
+            <li>Tambahkan 1 shot espresso di atas campuran susu dan karamel.</li>
+            <li>Tambahkan sedikit sirup karamel di atasnya untuk hiasan.</li>
+            <li>Sajikan segera dan nikmati sensasi rasa manis yang lembut dan kaya.</li>
+        </ol>
+        <br />
+        <h3>Tips Tambahan</h3>
+        <ol>
+            <li>Gunakan susu pilihan sesuai selera, seperti susu almond atau oat untuk versi non-dairy.</li>
+            <li>Sesuaikan jumlah sirup karamel untuk mendapatkan rasa manis yang diinginkan.</li>
+            <li>Untuk membuat versi iced, tambahkan es batu setelah susu dan espresso dicampurkan.</li>
+        </ol>
+        <br>
+        <p><strong>Caramel Macchiato</strong> adalah minuman kopi manis yang sempurna untuk pecinta rasa kopi yang lembut dan nikmat, dengan sentuhan karamel yang memikat. Selamat mencoba!</p>
+        <br>
+        <img src="https://png.pngtree.com/thumb_back/fw800/background/20240401/pngtree-caramel-macchiato-coffee-in-glass-image_15644510.jpg" alt="Caramel Macchiato" width="500" itemprop="image">
+        <br />
+    </div>
+</div>
+
+
+
+<!-- Modal Americano -->
+<div id="modal-apply1" class="modal" itemscope itemtype="https://schema.org/Recipe">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 itemprop="name">Americano</h2>
+        <br>
+        <h3>Manfaat Americano</h3>
+        <ul>
+            <li><span itemprop="description">Meningkatkan Fokus: Kafein dalam Americano membantu meningkatkan konsentrasi dan kewaspadaan.</span></li>
+            <li><span itemprop="description">Rendah Kalori: Americano tanpa gula adalah pilihan rendah kalori yang cocok untuk diet.</span></li>
+            <li><span itemprop="description">Rasa Murni: Americano memberikan rasa kopi yang lebih murni, cocok untuk para pencinta kopi sejati.</span></li>
+        </ul>
+        <br>
+        <h3>Bahan-bahan yang Umum Digunakan</h3>
+        <ul itemprop="ingredients">
+            <li>1 shot espresso dari biji kopi pilihan</li>
+            <li>120 ml air panas</li>
+        </ul>
+        <br />
+        <h3>Cara Membuat Americano</h3>
+        <ol itemprop="recipeInstructions">
+            <li>Siapkan cangkir besar untuk penyajian.</li>
+            <li>Seduh 1 shot espresso menggunakan biji kopi pilihan.</li>
+            <li>Tuangkan air panas ke dalam cangkir di atas espresso secara perlahan.</li>
+            <li>Sajikan segera untuk menikmati rasa yang segar dan pekat.</li>
+        </ol>
+        <br />
+        <h3>Tips Tambahan</h3>
+        <ol>
+            <li>Gunakan biji kopi segar yang baru digiling untuk rasa terbaik.</li>
+            <li>Sesuaikan perbandingan air dan espresso sesuai selera Anda.</li>
+            <li>Tambahkan sedikit gula atau susu jika ingin rasa yang lebih lembut.</li>
+        </ol>
+        <br>
+        <p><strong>Americano</strong> adalah pilihan kopi yang sederhana namun kuat, cocok bagi mereka yang menginginkan pengalaman kopi yang murni dan menenangkan. Selamat mencoba!</p>
+        <br>
+        <img src="https://cdn.rri.co.id/berita/Yogyakarta/o/1730602616113-1000083690/odc4glysmrfeirz.jpeg" alt="Americano" width="500" itemprop="image">
+        <br />
+    </div>
+</div>
+
+
+
+<!-- Modal Ice Blend Coffee -->
+<div id="modal-apply2" class="modal" itemscope itemtype="https://schema.org/Recipe">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 itemprop="name">Ice Blend Coffee</h2>
+        <br>
+        <h3>Manfaat Ice Blend Coffee</h3>
+        <ul>
+            <li><span itemprop="description">Menyegarkan: Kombinasi es dan kopi memberikan sensasi kesegaran yang menyenangkan, cocok untuk cuaca panas.</span></li>
+            <li><span itemprop="description">Peningkat Energi: Kafein dalam kopi memberikan dorongan energi yang dibutuhkan sepanjang hari.</span></li>
+            <li><span itemprop="description">Rasa yang Lembut: Ice Blend Coffee memiliki rasa yang seimbang, tidak terlalu pahit, cocok untuk berbagai selera.</span></li>
+        </ul>
+        <br>
+        <h3>Bahan-bahan yang Umum Digunakan</h3>
+        <ul itemprop="ingredients">
+            <li>1 shot espresso dari biji kopi pilihan</li>
+            <li>120 ml susu cair (atau susu pilihan lainnya)</li>
+            <li>Es batu secukupnya</li>
+            <li>1 hingga 2 sendok makan sirup gula (atau sesuai selera)</li>
+        </ul>
+        <br />
+        <h3>Cara Membuat Ice Blend Coffee</h3>
+        <ol itemprop="recipeInstructions">
+            <li>Siapkan blender dan masukkan es batu ke dalamnya.</li>
+            <li>Tambahkan 1 shot espresso yang sudah diseduh ke dalam blender.</li>
+            <li>Masukkan susu cair dan sirup gula sesuai selera.</li>
+            <li>Blend bahan-bahan hingga halus dan tercampur rata.</li>
+            <li>Tuangkan ke dalam gelas dan sajikan segera untuk menikmati rasa segar dan nikmat.</li>
+        </ol>
+        <br />
+        <h3>Tips Tambahan</h3>
+        <ol>
+            <li>Gunakan es batu yang lebih besar untuk mencegah cairan cepat mencair.</li>
+            <li>Sesuaikan tingkat manisnya dengan menambah atau mengurangi jumlah sirup gula.</li>
+            <li>Tambahkan whipped cream atau topping lain jika diinginkan untuk sentuhan ekstra.</li>
+        </ol>
+        <br>
+        <p><strong>Ice Blend Coffee</strong> adalah pilihan kopi yang segar dan nikmat, sangat cocok dinikmati saat cuaca panas atau sebagai minuman penutup yang menyenangkan. Selamat mencoba!</p>
+        <br>
+        <img src="https://media.istockphoto.com/id/980280776/photo/iced-coffee.jpg?s=612x612&w=0&k=20&c=pd7V7C7dEUGTK_Qw1faI5tMlxdlxs40k4oKJGU2DWZw=" alt="Ice Blend Coffee" width="500" itemprop="image">
+        <br />
+    </div>
+</div>
+
+
+
+<!-- Modal Classic Coffee Cappuccino -->
+<div id="modal-apply3" class="modal" itemscope itemtype="https://schema.org/Recipe">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 itemprop="name">Classic Coffee Cappuccino</h2>
+        <br>
+        <h3>Manfaat Classic Coffee Cappuccino</h3>
+        <ul>
+            <li><span itemprop="description">Sumber Energi: Kafein membantu meningkatkan fokus dan kewaspadaan.</span></li>
+            <li><span itemprop="description">Nikmat dan Creamy: Kombinasi espresso, susu hangat, dan busa susu memberikan rasa lembut dan lezat.</span></li>
+            <li><span itemprop="description">Relaksasi: Aroma kopi yang khas membantu menciptakan suasana santai.</span></li>
+        </ul>
+        <br>
+        <h3>Bahan-bahan yang Umum Digunakan</h3>
+        <ul itemprop="ingredients">
+            <li>1 shot espresso (sekitar 30 ml)</li>
+            <li>60 ml susu hangat</li>
+            <li>60 ml busa susu</li>
+            <li>Bubuk kakao atau kayu manis (opsional, sebagai topping)</li>
+        </ul>
+        <br />
+        <h3>Cara Membuat Classic Coffee Cappuccino</h3>
+        <ol itemprop="recipeInstructions">
+            <li>Siapkan gelas cappuccino (sekitar 180 ml).</li>
+            <li>Tuangkan espresso yang baru diseduh ke dalam gelas.</li>
+            <li>Tambahkan susu hangat secara perlahan.</li>
+            <li>Lapisi dengan busa susu di bagian atas.</li>
+            <li>Taburkan bubuk kakao atau kayu manis di atasnya sebagai hiasan (opsional).</li>
+            <li>Sajikan segera untuk menikmati cita rasa klasik yang lembut.</li>
+        </ol>
+        <br />
+        <h3>Tips Tambahan</h3>
+        <ol>
+            <li>Gunakan susu full cream untuk busa yang lebih tebal dan creamy.</li>
+            <li>Pastikan espresso diseduh dengan biji kopi berkualitas tinggi untuk rasa autentik.</li>
+            <li>Sajikan dengan biskuit atau croissant sebagai pelengkap.</li>
+        </ol>
+        <br>
+        <p><strong>Classic Coffee Cappuccino</strong> adalah pilihan sempurna bagi pecinta kopi yang menyukai keseimbangan rasa kuat dan lembut. Selamat menikmati!</p>
+        <br>
+        <img src="https://www.nescafe.com/id/sites/default/files/2023-08/Sama-sama-Berbahan-Dasar-Susu%2C-Apa-Perbedaan-Cappuccino-dan-Latte_hero.jpg" alt="Classic Coffee Cappuccino" width="500" itemprop="image">
+        <br />
+    </div>
+</div>
+
+
+<!-- Modal French Fries -->
+<div id="modal-apply4" class="modal" itemscope itemtype="https://schema.org/Recipe">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 itemprop="name">French Fries</h2>
+        <br>
+        <h3>Manfaat French Fries</h3>
+        <ul>
+            <li><span itemprop="description">Sumber Karbohidrat: French fries mengandung karbohidrat yang memberikan energi untuk aktivitas sehari-hari.</span></li>
+            <li><span itemprop="description">Mudah Disiapkan: French fries adalah camilan praktis yang bisa dinikmati kapan saja.</span></li>
+            <li><span itemprop="description">Cocok untuk Semua Usia: Kelezatan French fries disukai oleh hampir semua orang, baik anak-anak maupun orang dewasa.</span></li>
+        </ul>
+        <br>
+        <h3>Bahan-bahan yang Umum Digunakan</h3>
+        <ul itemprop="ingredients">
+            <li>4 buah kentang besar</li>
+            <li>Minyak goreng secukupnya</li>
+            <li>Garam secukupnya</li>
+            <li>Merica secukupnya (opsional)</li>
+            <li>Paprika atau bumbu lainnya (opsional)</li>
+        </ul>
+        <br />
+        <h3>Cara Membuat French Fries</h3>
+        <ol itemprop="recipeInstructions">
+            <li>Kupas kentang dan potong menjadi bentuk batang tipis.</li>
+            <li>Rendam potongan kentang dalam air dingin selama 30 menit untuk menghilangkan kelebihan pati.</li>
+            <li>Panaskan minyak dalam wajan hingga suhu sedang.</li>
+            <li>Goreng kentang dalam minyak panas hingga berwarna keemasan dan renyah.</li>
+            <li>Angkat kentang dan tiriskan dengan menggunakan kertas tisu untuk menghilangkan minyak berlebih.</li>
+            <li>Taburi dengan garam, merica, atau bumbu pilihan, lalu sajikan segera.</li>
+        </ol>
+        <br />
+        <h3>Tips Tambahan</h3>
+        <ol>
+            <li>Untuk hasil yang lebih renyah, goreng kentang dalam dua tahap: pertama, goreng pada suhu lebih rendah hingga setengah matang, kemudian goreng lagi pada suhu lebih tinggi untuk hasil yang lebih renyah.</li>
+            <li>Gunakan kentang jenis russet atau kentang yang cocok untuk digoreng agar hasilnya lebih baik.</li>
+            <li>Eksperimen dengan berbagai bumbu seperti paprika, oregano, atau bahkan keju parut untuk variasi rasa.</li>
+        </ol>
+        <br>
+        <p><strong>French Fries</strong> adalah camilan klasik yang lezat dan cocok disajikan bersama saus favorit seperti saus tomat atau mayones. Nikmati kelezatannya kapan saja!</p>
+        <br>
+        <img src="https://w0.peakpx.com/wallpaper/794/676/HD-wallpaper-french-fries-fastfood-potato-close-up.jpg" alt="French Fries" width="500" itemprop="image">
+        <br />
+    </div>
+</div>
+
+
+
+<!-- Modal Mie Goreng -->
+<div id="modal-apply5" class="modal" itemscope itemtype="https://schema.org/Recipe">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 itemprop="name">Mie Goreng</h2>
+        <br>
+        <h3>Manfaat Mie Goreng</h3>
+        <ul>
+            <li><span itemprop="description">Sumber Energi: Mie goreng mengandung karbohidrat yang memberikan energi untuk aktivitas sehari-hari.</span></li>
+            <li><span itemprop="description">Rasa yang Lezat: Mie goreng memiliki rasa yang gurih dan kaya bumbu, cocok untuk berbagai selera.</span></li>
+            <li><span itemprop="description">Praktis dan Cepat: Mie goreng mudah dan cepat disiapkan, cocok untuk makan siang atau malam yang praktis.</span></li>
+        </ul>
+        <br>
+        <h3>Bahan-bahan yang Umum Digunakan</h3>
+        <ul itemprop="ingredients">
+            <li>1 bungkus mie instan (atau mie telur segar)</li>
+            <li>2 sendok makan minyak goreng</li>
+            <li>1 butir telur (opsional)</li>
+            <li>2 siung bawang putih, cincang halus</li>
+            <li>1 batang daun bawang, iris tipis</li>
+            <li>1 sendok makan kecap manis</li>
+            <li>1 sendok makan saus tiram (opsional)</li>
+            <li>Garam dan merica secukupnya</li>
+            <li>Sayuran (opsional: kol, wortel, atau sawi hijau)</li>
+        </ul>
+        <br />
+        <h3>Cara Membuat Mie Goreng</h3>
+        <ol itemprop="recipeInstructions">
+            <li>Rebus mie instan dalam air mendidih selama 3-4 menit, tiriskan dan sisihkan.</li>
+            <li>Panaskan minyak goreng dalam wajan, lalu tumis bawang putih hingga harum.</li>
+            <li>Jika menggunakan telur, pecahkan telur ke dalam wajan dan orak-arik hingga matang.</li>
+            <li>Masukkan mie yang sudah direbus ke dalam wajan, aduk rata dengan bawang putih dan telur.</li>
+            <li>Tambahkan kecap manis, saus tiram (jika digunakan), dan sayuran (jika diinginkan). Aduk rata.</li>
+            <li>Tambahkan garam dan merica secukupnya, masak hingga semua bahan tercampur sempurna.</li>
+            <li>Angkat dan sajikan panas-panas, taburi dengan daun bawang.</li>
+        </ol>
+        <br />
+        <h3>Tips Tambahan</h3>
+        <ol>
+            <li>Untuk mie goreng yang lebih lezat, tambahkan potongan daging ayam, udang, atau bakso.</li>
+            <li>Jangan lupa untuk menyesuaikan jumlah kecap manis dan saus tiram dengan selera Anda.</li>
+            <li>Jika suka pedas, Anda bisa menambahkan cabai rawit atau sambal sesuai selera.</li>
+        </ol>
+        <br>
+        <p><strong>Mie Goreng</strong> adalah hidangan yang serbaguna dan lezat, sangat cocok untuk makan siang atau malam yang cepat dan nikmat. Selamat menikmati!</p>
+        <br>
+        <img src="https://liburasik.com/wp-content/uploads/2024/08/Resep-Mie-Goreng-Lezat-dan-Praktis-untuk-Santapan-Keluarga.jpg" alt="Mie Goreng" width="500" itemprop="image">
+        <br />
+    </div>
+</div>
+
+
+
+<!-- Modal Nasi Goreng Beef -->
+<div id="modal-apply6" class="modal" itemscope itemtype="https://schema.org/Recipe">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 itemprop="name">Nasi Goreng Beef</h2>
+        <br>
+        <h3>Manfaat Nasi Goreng Beef</h3>
+        <ul>
+            <li><span itemprop="description">Sumber Energi: Nasi sebagai karbohidrat memberikan energi yang dibutuhkan tubuh.</span></li>
+            <li><span itemprop="description">Protein Berkualitas: Daging sapi memberikan asupan protein untuk membangun dan memperbaiki jaringan tubuh.</span></li>
+            <li><span itemprop="description">Rasa Lezat: Perpaduan bumbu rempah dan daging sapi menciptakan cita rasa gurih dan nikmat.</span></li>
+        </ul>
+        <br>
+        <h3>Bahan-bahan yang Umum Digunakan</h3>
+        <ul itemprop="ingredients">
+            <li>1 piring nasi putih (sekitar 250 gram)</li>
+            <li>100 gram daging sapi (iris tipis atau cincang)</li>
+            <li>2 siung bawang putih (cincang halus)</li>
+            <li>1 butir telur</li>
+            <li>2 sdm kecap manis</li>
+            <li>1 sdm saus tiram</li>
+            <li>1 sdm minyak goreng</li>
+            <li>Garam dan merica secukupnya</li>
+            <li>Daun bawang (iris tipis) untuk taburan</li>
+            <li>Kerupuk sebagai pelengkap (opsional)</li>
+        </ul>
+        <br />
+        <h3>Cara Membuat Nasi Goreng Beef</h3>
+        <ol itemprop="recipeInstructions">
+            <li>Panaskan minyak goreng di wajan dengan api sedang.</li>
+            <li>Tumis bawang putih hingga harum dan matang.</li>
+            <li>Masukkan daging sapi, masak hingga berubah warna dan matang merata.</li>
+            <li>Geser daging ke sisi wajan, lalu pecahkan telur dan orak-arik hingga matang.</li>
+            <li>Tambahkan nasi putih, kecap manis, saus tiram, garam, dan merica. Aduk rata.</li>
+            <li>Masak hingga semua bahan tercampur dan nasi terasa hangat merata.</li>
+            <li>Angkat dan sajikan nasi goreng beef di piring saji.</li>
+            <li>Taburi dengan daun bawang dan sajikan bersama kerupuk jika diinginkan.</li>
+        </ol>
+        <br />
+        <h3>Tips Tambahan</h3>
+        <ol>
+            <li>Gunakan nasi yang sudah dingin atau nasi sisa semalam agar teksturnya tidak lembek.</li>
+            <li>Pilih daging sapi berkualitas untuk rasa yang lebih gurih dan tekstur empuk.</li>
+            <li>Tambahkan cabai atau saus sambal jika menyukai rasa pedas.</li>
+        </ol>
+        <br>
+        <p><strong>Nasi Goreng Beef</strong> adalah hidangan klasik dengan rasa gurih dari daging sapi dan bumbu khas. Cocok dinikmati kapan saja!</p>
+        <br>
+        <img src="https://img-global.cpcdn.com/recipes/104878a22325a12c/680x482cq70/nasi-goreng-smoke-beef-foto-resep-utama.jpg" alt="Nasi Goreng Beef" width="500" itemprop="image">
+        <br />
+    </div>
+</div>
+
+
+
+
+<script>
+        // Modal functionality for Header
+        function showModal(modalId) {
+            const modal = document.getElementById(modalId);
+            const closeModal = modal.querySelector('.close');
+            modal.style.display = 'block';
+
+            closeModal.addEventListener('click', () => {
+                modal.style.display = 'none';
+            });
+
+            window.onclick = function(event) {
+                if (event.target === modal) {
+                    modal.style.display = 'none';
+                }
+            };
+        }
+
+        // Apply Modals
+       document.getElementById('applyBtn').addEventListener('click', () => showModal('modal-apply'));
+
+
+       // Apply Modals
+       document.getElementById('applyBtn1').addEventListener('click', () => showModal('modal-apply1'));
+       document.getElementById('applyBtn2').addEventListener('click', () => showModal('modal-apply2'));
+       document.getElementById('applyBtn3').addEventListener('click', () => showModal('modal-apply3'));
+       document.getElementById('applyBtn4').addEventListener('click', () => showModal('modal-apply4'));
+       document.getElementById('applyBtn5').addEventListener('click', () => showModal('modal-apply5'));
+       document.getElementById('applyBtn6').addEventListener('click', () => showModal('modal-apply6'));
+
+        // Header Modals
+        document.getElementById('aboutBtn').addEventListener('click', () => showModal('modal-about'));
+        document.getElementById('servicesBtn').addEventListener('click', () => showModal('modal-services'));
+        document.getElementById('contactBtn').addEventListener('click', () => showModal('modal-contact'));
+
+        // Footer Modals
+        document.getElementById('aboutFooterBtn').addEventListener('click', () => showModal('modal-footer-about'));
+        document.getElementById('privacyFooterBtn').addEventListener('click', () => showModal('modal-footer-privacy'));
+        document.getElementById('termsFooterBtn').addEventListener('click', () => showModal('modal-footer-terms'));
+    </script>
+
+
+
+</body>
+</html>
